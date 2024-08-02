@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "producer": "node src/producer.js",
-    "consumer": "node src/consumer.js"
+    "consumer": "node src/consumer.js",
+    "cron": "node src/cron.js",
+    "timesheet": "node src/timesheet.js"
   },
   "author": "",
   "license": "ISC",

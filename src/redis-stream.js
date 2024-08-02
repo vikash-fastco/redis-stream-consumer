@@ -1,6 +1,11 @@
 const nrs = require('node-redis-streams')
 const Redis = require('ioredis')
 
+module.exports.streamTopics = {
+    SHIFT_ENDED: 'sihft.ended',
+    INVOICE_GENERATED: 'invoice.generated'
+}
+
 const config = {
     host: process.env.REDIS_HOST,
     port: process.env.REDIS_PORT,
